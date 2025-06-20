@@ -2,6 +2,7 @@ const CacheKeyHuerto = "Mihuerto-v1.0.0";
 
 const appShell =[
     "/",
+    "/js/app.js",
     "icons",
     "icons/icon-192.png",
     "icons/icon-512.png",
