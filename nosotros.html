@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Nosotros - MiHuerto</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <!-- Estilos personalizados -->
+  <link rel="stylesheet" href="nosotros.css">
+
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-success fw-bold d-flex align-items-center" href="index.html#home">
+        <img src="icons/icons-3.png" alt="Logo MiHuerto" class="me-2 logo-navbar">
+        <span class="fs-3">MiHuerto</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="index.html#home"><span class="fs-3">Inicio</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html"><span class="fs-3">Nosotros</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="index.html#contact"><span class="fs-3">Contacto</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Sección principal -->
+  <section class="pt-4">
+    <div class="container">
+      <h1 class="mb-4 text-center text-success"><strong>NOSOTROS</strong></h1>
+      <p class="fs-5">
+        Somos estudiantes de la carrera de Ingeniería en Desarrollo y Gestión de Software (IDGS), actualmente cursando el décimo cuatrimestre. MiHuerto nace como una propuesta académica con enfoque ecológico y educativo, pensada para contribuir al desarrollo sostenible mediante el conocimiento sobre el cultivo de plantas en casa.
+      </p>
+
+      <h3 class="mt-5 text-success"><strong>OBJETIVOS</strong></h3>
+      <p>
+        El objetivo principal de esta página web es brindar orientación práctica y accesible a los usuarios sobre el cuidado de las plantas. A través de secciones dinámicas, buscamos fomentar el interés por la jardinería urbana, presentando:
+      </p>
+      <ul>
+        <li>Cuidado básico de plantas para principiantes.</li>
+        <li>Beneficios ambientales y personales de tener plantas en casa.</li>
+        <li>Guías de siembra y riego.</li>
+        <li>Recomendaciones por tipo de planta: decorativas, frutales y medicinales.</li>
+        <li>Consejos para espacios pequeños o con mascotas.</li>
+      </ul>
+
+      <h3 class="mt-5 text-success"><strong>NUESTRA VISIÓN</strong></h3>
+      <p>
+        Queremos inspirar a más personas a reconectar con la naturaleza desde sus hogares, aportando al bienestar individual y al equilibrio del entorno. MiHuerto es más que una web: es una semilla digital hacia una vida más verde.
+      </p>
+    </div>
+  </section>
+  
+  <!-- Boton para subir-->
+  <button id="btnTop" style="display:none; position:fixed; bottom:20px; right:20px; z-index:1000; background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:50%;">
+  ↑
+  </button>
+
+  <!-- Footer reutilizado -->
+  <footer class="footer bg-dark text-light pt-5 pb-4">
+    <div class="container">
+      <div class="row g-4 text-md-start text-center">
+        <div class="col-md-3">
+          <h5 class="text-uppercase text-success fw-bold mb-3"><img src="icons/icons-4.png" alt="Logo MiHuerto" class="footer-logo mb-2"><strong>MIHUERTO</strong></h5>
+          <p>Aprende sobre los <strong>beneficios de las plantas</strong>, cómo cuidarlas y fichas informativas de especies ideales para tu hogar.</p>
+        </div>
+
+        <!--NAVEGACIÓN-->
+        <div class="col-md-3">
+          <h6 class="text-uppercase text-success fw-bold mb-3"><strong>NAVEGACIÓN</strong></h6>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="footer-link">Inicio</a></li>
+            <li><a href="index.html#benefits" class="footer-link">Beneficios</a></li>
+            <li><a href="index.html#cuidados" class="footer-link">Cuidados</a></li>
+            <li><a href="index.html#blog" class="footer-link">Tipos de plantas</a></li>
+            <li><a href="nosotros.html" class="footer-link">Nosotros</a></li>
+            <li><a href="index.html#contact" class="footer-link">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!--SOPORTE-->
+        <div class="col-md-3">
+          <h6 class="text-uppercase text-success fw-bold mb-3"><strong>SOPORTE</strong></h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="footer-link">Preguntas frecuentes</a></li>
+            <li><a href="#" class="footer-link">Política de privacidad</a></li>
+            <li><a href="#" class="footer-link">Términos y condiciones</a></li>
+          </ul>
+        </div>
+
+        <!--CONTÁCTANOS-->
+        <div class="col-md-3 text-md-start text-center">
+          <h6 class="text-uppercase text-success fw-bold mb-3"><strong>CONTÁCTANOS</strong></h6>
+          <div class="d-flex align-items-center justify-content-md-start justify-content-center mb-2">
+            <i class="bi bi-envelope-fill me-2"></i>
+            <span>servicioalcliente@mihuerto.com</span>
+          </div>
+          <div class="d-flex justify-content-md-start justify-content-center gap-3 mt-3">
+            <a href="https://es-la.facebook.com" class="social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com" class="social-icon"><i class="bi bi-instagram"></i></a>
+            <a href="https://web.whatsapp.com" class="social-icon"><i class="bi bi-whatsapp"></i></a>
+            <a href="https://x.com" class="social-icon"><i class="bi bi-twitter"></i></a>
+          </div>
+        </div>
+      </div>
+
+      <!--SLOGAN-->
+      <hr class="border-light my-4">
+      <div class="text-center">
+        <p style="color: #388e3c;"><img src="icons/icons-4.png" alt="Logo MiHuerto" class="footer-logo mb-2"><strong>MIHUERTO</strong></p>
+        <p class="fst-italic text-success">"Sembrar desde casa es el primer paso hacia un planeta más verde"</p>
+        <p>Todos los derechos reservados | Copyright 2025 MiHuerto © | Nuevo León - Mexico</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <!-- Scripts-->
+  <script src="index.js"></script>
+  <script src="notificaciones.js"></script>
+</body>
+</html>

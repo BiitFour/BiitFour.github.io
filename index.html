@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#4CAF50">
+  <link rel="manifest" href="manifest.json">
+  <title>MiHuerto</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- CSS Personalizado -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+      <a class="navbar-brand text-success fw-bold d-flex align-items-center" href="#home">
+        <img src="icons/icons-3.png" alt="Logo MiHuerto" class="me-2 logo-navbar">
+        <span class="fs-3">MiHuerto</span>
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item"><a class="nav-link" href="#home"><span class="fs-3">Inicio</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="nosotros.html"><span class="fs-3">Nosotros</span></a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact"><span class="fs-3">Contacto</span></a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+
+  <!-- Home -->
+  <section id="home" class="py-5 bg-light text-center offset-navbar">
+    <div class="container">
+      <h1 class="display-5 fw-bold">Cultiva vida desde casa</h1>
+      <p class="lead">Descubre cómo las plantas pueden transformar tu hogar y el planeta.</p>
+    </div>
+  </section>
+
+  <section id="beneficios" class="py-5 bg-light">
+  <div class="container">
+    <div class="row align-items-center">
+      <!-- Imagen estilo informativo -->
+      <div class="col-md-4 text-center mb-3">
+        <img src="img/nagy-arnold-X\_IvVDuHvDQ-unsplash.jpg" alt="Plantas beneficiosas" class="img-fluid rounded shadow">
+      </div>
+
+      <!-- Texto informativo -->
+      <div class="col-md-8">
+        <h2 class="text-success fw-bold mb-3">¿Cómo ayudan las plantas al planeta?</h2>
+        <p class="text-dark fs-5">
+          Las plantas nos permite conocer su importancia en el mundo real.
+          Las plantas no solo embellecen los espacios, sino que desempeñan funciones fundamentales para el medio ambiente:
+        </p>
+        <ul class="list-group list-group-flush mb-3">
+          <li class="list-group-item bg-light"><strong>🌿 Purifican el aire:</strong> Absorben dióxido de carbono y liberan oxígeno.</li>
+          <li class="list-group-item bg-light"><strong>💧 Regulan la humedad:</strong> Aportan frescura y mantienen el equilibrio hídrico.</li>
+          <li class="list-group-item bg-light"><strong>🏡 Reducen el estrés:</strong> Su presencia mejora la salud mental y emocional.</li>
+          <li class="list-group-item bg-light"><strong>🐝 Fomentan la biodiversidad:</strong> Atraen insectos polinizadores como abejas y mariposas.</li>
+          <li class="list-group-item bg-light"><strong>🌱 Fomentan la autosuficiencia:</strong> Cultivar alimentos en casa reduce la huella ecológica.</li>
+        </ul>
+        <p class="text-dark">
+          Tanto las plantas como sus beneficios existen más allá del lenguaje: están presentes en nuestro entorno, forman parte del equilibrio natural y promueven comunidades más sostenibles.
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+  <!-- Sección de Beneficio -->
+  <section id="benefits" class="py-5 bg-success-subtle">
+  <div class="container">
+    <h2 class="text-black text-center mb-4"><strong>Beneficios de tener plantas en casa</strong></h2>
+ 
+    <div class="benefits-scroll d-flex overflow-auto gap-4 px-2">
+ 
+      <div class="benefit-card text-center flex-shrink-0">
+        <i class="bi bi-flower2 display-4 text-success">
+        <h5 class="mt-2">Mejoran la calidad del aire</h5>
+        <p>Purifican el ambiente absorbiendo CO₂ y liberando oxígeno.</p>
+      </div>
+
+      <div class="benefit-card text-center flex-shrink-0">
+        <i class="bi bi-emoji-smile display-4 text-success">
+        <h5 class="mt-2">Reducen el estrés</h5>
+        <p>Cuidarlas ayuda a reducir ansiedad y mejorar el ánimo.</p>
+      </div>
+
+      <div class="benefit-card text-center flex-shrink-0">
+        <i class="bi bi-house-heart display-4 text-success">
+        <h5 class="mt-2">Decoración y bienestar</h5>
+        <p>Embellecen espacios y conectan con la naturaleza.</p>
+      </div>
+
+      <div class="benefit-card text-center flex-shrink-0">
+        <i class="bi bi-droplet-half display-4 text-success">
+        <h5 class="mt-2">Aumentan la humedad</h5>
+        <p>Ayudan a mantener la humedad ambiental saludable.</p>
+      </div>
+
+      <div class="benefit-card text-center flex-shrink-0">
+        <i class="bi bi-lightbulb display-4 text-success">
+        <h5 class="mt-2">Mejoran la concentración</h5>
+        <p>Estimulan el enfoque y la productividad.</p>
+      </div>
+
+      <div class="benefit-card text-center flex-shrink-0">
+        <i class="bi bi-moon-stars display-4 text-success">
+        <h5 class="mt-2">Favorecen el sueño</h5>
+        <p>Algunas plantas relajan y mejoran el descanso.</p>
+      </div>
+
+      <div class="benefit-card text-center flex-shrink-0">
+        <i class="bi bi-volume-down-fill display-4 text-success">
+        <h5 class="mt-2">Reducen el ruido</h5>
+        <p>Actúan como barreras naturales de sonido.</p>
+      </div>
+
+      <div class="benefit-card text-center flex-shrink-0">
+        <i class="bi bi-heart-pulse display-4 text-success">
+        <h5 class="mt-2">Fomentan el autocuidado</h5>
+        <p>Establecen rutinas saludables al cuidarlas.</p>
+      </div>
+
+    </div>
+  </div>
+  </section>
+
+ <!-- Sección de Plantas Medicinales -->
+<section id="blog" class="plantas-section">
+  <div class="container py-5">
+    <h2 class="text-center text-success mb-5 display-5 fw-bold">Plantas Medicinales</h2>
+    <div class="scroll-cards">
+      <div class="card">
+        <img src="img/sabila.jpeg" alt="Sábila">
+        <div class="card-body">
+          <h5 class="card-title">Sábila</h5>
+          <p class="card-text">Alivia quemaduras, hidrata la piel y favorece la digestión.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/manzanilla.jpeg" alt="Manzanilla">
+        <div class="card-body">
+          <h5 class="card-title">Manzanilla</h5>
+          <p class="card-text">Relajante natural, mejora el sueño y la digestión.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/menta.jpeg" alt="Menta">
+        <div class="card-body">
+          <h5 class="card-title">Menta</h5>
+          <p class="card-text">Refresca el aliento, alivia dolores de cabeza y ayuda en la digestión.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/oregano.jpeg" alt="Orégano">
+        <div class="card-body">
+          <h5 class="card-title">Orégano</h5>
+          <p class="card-text">Antiinflamatorio natural, ideal para infusiones medicinales.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/ruda.jpeg" alt="Ruda">
+        <div class="card-body">
+          <h5 class="card-title">Ruda</h5>
+          <p class="card-text">Tradicionalmente usada para aliviar dolores menstruales.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección de Plantas Decorativas -->
+<section class="plantas-section">
+  <div class="container py-5">
+    <h2 class="text-center text-success mb-5 display-5 fw-bold">Plantas Decorativas</h2>
+    <div class="scroll-cards">
+      <div class="card">
+        <img src="img/potus.jpeg" alt="Potus">
+        <div class="card-body">
+          <h5 class="card-title">Potus</h5>
+          <p class="card-text">Planta colgante resistente, ideal para interiores.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/sansevieria.jpeg" alt="Sansevieria">
+        <div class="card-body">
+          <h5 class="card-title">Sansevieria</h5>
+          <p class="card-text">Purificadora de aire, fácil de cuidar.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/helecho.jpeg" alt="Helecho">
+        <div class="card-body">
+          <h5 class="card-title">Helecho</h5>
+          <p class="card-text">Añade frescura visual, ideal para espacios húmedos.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/anturio.jpg" alt="Anturio">
+        <div class="card-body">
+          <h5 class="card-title">Anturio</h5>
+          <p class="card-text">Flores vistosas que decoran cualquier espacio.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/palma areca.jpeg" alt="Palmera de salón">
+        <div class="card-body">
+          <h5 class="card-title">Palmera de salón</h5>
+          <p class="card-text">Aporta elegancia tropical, crece bien en interiores.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Sección de Plantas Frutales -->
+<section class="plantas-section">
+  <div class="container py-5">
+    <h2 class="text-center text-success mb-5 display-5 fw-bold">Plantas Frutales</h2>
+    <div class="scroll-cards">
+      <div class="card">
+        <img src="img/lima.jpeg" alt="Lima">
+        <div class="card-body">
+          <h5 class="card-title">Lima</h5>
+          <p class="card-text">Fruta cítrica rica en vitamina C, ideal para maceta grande.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/fresa.jpeg" alt="Fresa">
+        <div class="card-body">
+          <h5 class="card-title">Fresa</h5>
+          <p class="card-text">Fruto delicioso, puede crecer en macetas colgantes.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/jitomate.jpeg" alt="Jitomate">
+        <div class="card-body">
+          <h5 class="card-title">Jitomate</h5>
+          <p class="card-text">Básico en la cocina, necesita sol directo y buena tierra.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/serrano.jpeg" alt="Chile serrano">
+        <div class="card-body">
+          <h5 class="card-title">Chile serrano</h5>
+          <p class="card-text">Fácil de cultivar, da frutos picantes para consumo diario.</p>
+        </div>
+      </div>
+      <div class="card">
+        <img src="img/nopal.jpeg" alt="Nopal">
+        <div class="card-body">
+          <h5 class="card-title">Nopal</h5>
+          <p class="card-text">Planta resistente, rica en fibra y antioxidantes.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Consejos para el Cuidado de Plantas -->
+<section id="cuidados" class="plantas-section bg-light">
+  <div class="container py-5">
+    <h2 class="text-center text-success mb-4 display-5 fw-bold">Consejos para el Cuidado de tus Plantas</h2>
+    <ul class="list-group list-group-flush fs-5">
+      <li class="list-group-item">💧 Riega tus plantas según su necesidad; evita el exceso de agua.</li>
+      <li class="list-group-item">🌤️ Colócalas donde reciban luz natural, pero no sol directo todo el día.</li>
+      <li class="list-group-item">🌱 Usa tierra rica en nutrientes y composta natural cuando sea posible.</li>
+      <li class="list-group-item">🌱Limpia sus hojas para que puedan respirar mejor y evitar plagas.</li>
+      <li class="list-group-item">🔍 Revisa frecuentemente la humedad del sustrato y signos de enfermedad.</li>
+    </ul>
+  </div>
+</section>
+
+
+
+  <!-- Sección de contacto -->
+  <section id="contact" class="contact-section text-white" style="background: url('img/vadim-kaipov-8ZELrodSvTc-unsplash.jpg') center/cover no-repeat; margin-bottom: 0;">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-lg-8 bg-dark bg-opacity-50 p-5 rounded shadow-lg">
+          <h2 class="text-center mb-4">¿En qué te puedo ayudar?</h2>
+            <p class="text-center mb-4">Contáctame a través del siguiente formulario y te responderé en menos de 48 horas.</p>
+
+          <form id="contact-form">
+              <div class="mb-3">
+                <input type="text" id="name" name="nombre" class="form-control" placeholder="Nombre" required>
+              </div>
+              <div class="mb-3">
+                <input type="email" id="email" name="correo" class="form-control" placeholder="Correo electrónico" required>
+              </div>
+              <div class="mb-3">
+                <textarea id="message" name="mensaje" rows="4" class="form-control" placeholder="Escribe tu petición aquí..." required></textarea>
+              </div>
+
+            <div class="form-check d-flex align-items-center gap-2 mb-3">
+              <input type="checkbox" class="form-check-input" id="privacyCheck" required>
+              <label class="form-check-label text-white" for="privacyCheck">
+                He leído y acepto la <a href="#" class="text-warning text-decoration-underline">política de privacidad</a>.
+              </label>
+            </div>
+
+            <div class="text-center mt-3">
+              <button type="submit" class="btn btn-warning px-5 py-2">ENVIAR</button>
+            </div>
+          </form>
+
+          <div class="mt-4 small text-white-50 text-center">
+            <p><strong>Información básica sobre protección de datos:</strong> Tus datos serán tratados con la máxima confidencialidad. No se compartirán con terceros.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Boton para subir-->
+  <button id="btnTop" style="display:none; position:fixed; bottom:20px; right:20px; z-index:1000; background-color:#4CAF50; color:white; border:none; padding:10px 15px; border-radius:50%;">
+  ↑
+  </button>
+
+   <!-- Footer -->
+  <footer class="footer bg-dark text-light pt-5 pb-4">
+    <div class="container">
+      <div class="row g-4 text-md-start text-center">
+        <div class="col-md-3">
+          <h5 class="text-uppercase text-success fw-bold mb-3"><img src="icons/icons-4.png" alt="Logo MiHuerto" class="footer-logo mb-2"><strong>MIHUERTO</strong></h5>
+          <p>Aprende sobre los <strong>beneficios de las plantas</strong>, cómo cuidarlas y fichas informativas de especies ideales para tu hogar.</p>
+        </div>
+
+        <!--NAVEGACIÓN-->
+        <div class="col-md-3">
+          <h6 class="text-uppercase text-success fw-bold mb-3"><strong>NAVEGACIÓN</strong></h6>
+          <ul class="list-unstyled">
+            <li><a href="index.html" class="footer-link">Inicio</a></li>
+            <li><a href="index.html#benefits" class="footer-link">Beneficios</a></li>
+            <li><a href="index.html#cuidados" class="footer-link">Cuidados</a></li>
+            <li><a href="index.html#blog" class="footer-link">Tipos de plantas</a></li>
+            <li><a href="nosotros.html" class="footer-link">Nosotros</a></li>
+            <li><a href="index.html#contact" class="footer-link">Contacto</a></li>
+          </ul>
+        </div>
+
+        <!--SOPORTE-->
+        <div class="col-md-3">
+          <h6 class="text-uppercase text-success fw-bold mb-3"><strong>SOPORTE</strong></h6>
+          <ul class="list-unstyled">
+            <li><a href="#" class="footer-link">Preguntas frecuentes</a></li>
+            <li><a href="#" class="footer-link">Política de privacidad</a></li>
+            <li><a href="#" class="footer-link">Términos y condiciones</a></li>
+          </ul>
+        </div>
+
+        <!--CONTÁCTANOS-->
+        <div class="col-md-3 text-md-start text-center">
+          <h6 class="text-uppercase text-success fw-bold mb-3"><strong>CONTÁCTANOS</strong></h6>
+          <div class="d-flex align-items-center justify-content-md-start justify-content-center mb-2">
+            <i class="bi bi-envelope-fill me-2">
+            <span>servicioalcliente@mihuerto.com</span>
+          </div>
+          <div class="d-flex justify-content-md-start justify-content-center gap-3 mt-3">
+            <a href="https://es-la.facebook.com" class="social-icon"><i class="bi bi-facebook"></a>
+            <a href="https://www.instagram.com" class="social-icon"><i class="bi bi-instagram"></a>
+            <a href="https://web.whatsapp.com" class="social-icon"><i class="bi bi-whatsapp"></a>
+            <a href="https://x.com" class="social-icon"><i class="bi bi-twitter"></a>
+          </div>
+        </div>
+      </div>
+
+      <!--SLOGAN-->
+      <hr class="border-light my-4">
+      <div class="text-center">
+        <p style="color: #388e3c;"><img src="icons/icons-4.png" alt="Logo MiHuerto" class="footer-logo mb-2"><strong>MIHUERTO</strong></p>
+        <p class="fst-italic text-success">"Sembrar desde casa es el primer paso hacia un planeta más verde"</p>
+        <p>Todos los derechos reservados | Copyright 2025 MiHuerto © | Nuevo León - Mexico</p>
+      </div>
+    </div>
+  </footer>
+
+<!-- Scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  <script src="js/app.js"></script>
+  <script src="index.js"></script>
+  <script src="notificaciones.js"></script>
+
+  <!-- Firebase -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore-compat.js"></script>
+
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyAYenpJ65HGrgp_XJlwqiwulbx_B0g3hVk",
+      authDomain: "ecoraiz-a094d.firebaseapp.com",
+      projectId: "ecoraiz-a094d",
+      storageBucket: "ecoraiz-a094d.appspot.com",
+      messagingSenderId: "492360914863",
+      appId: "1:492360914863:web:98cd8c95385ee8fb28c15a"
+    };
+
+    const app = firebase.initializeApp(firebaseConfig);
+    const db = firebase.firestore(app);
+    const form = document.getElementById("contact-form");
+    form.addEventListener("submit", async function (e) {
+      e.preventDefault();
+      const formData = new FormData(form);
+      const data = {};
+      for (let [key, value] of formData.entries()) {
+        data[key] = value.trim();
+      }
+      data.fecha = new Date().toISOString();
+      try {
+        await db.collection("contacto").add(data);
+        alert("¡Tu mensaje fue enviado correctamente! 🌱");
+        form.reset();
+      } catch (error) {
+        console.error("Error al guardar los datos:", error);
+        alert("Hubo un error al enviar tu mensaje.");
+      }
+    });
+  </script>
+
+  <script>
+    if ('Notification' in window && 'serviceWorker' in navigator) {
+      Notification.requestPermission().then(permission => {
+        if (permission === 'granted') {
+          navigator.serviceWorker.register('serviceWorker.js').then(registration => {
+            console.log('ServiceWorker registrado');
+            registration.showNotification('¡Bienvenido a MiHuerto! 🌱', {
+              body: 'Gracias por visitar nuestra web.',
+              icon: 'icons/icons-1.png',
+              badge: 'icons/icons-2.png',
+              vibrate: [100, 50, 100],
+              actions: [
+                {
+                  action: 'explore',
+                  title: 'Ir al sitio',
+                  icon: 'icons/icons-3.png'
+                }
+              ]
+            });
+          });
+        }
+      });
+    }
+  </script>
+</body>
+
+</html>
