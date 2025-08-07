@@ -14,7 +14,7 @@
 //     //     // Simulamos envío exitoso:
 //         Notification.requestPermission().then(permission => {
 //           if (permission === "granted") {
-//             registration.showNotification("🌱 ¡Gracias por tu mensaje!", {
+//             registration.showNotification("¡Gracias por tu mensaje!", {
 //               body: "Nos pondremos en contacto contigo pronto.",
 //               icon: "icons/icons-1.png",
 //               badge: "icons/icons-2.png",
@@ -40,4 +40,5 @@
 //     }
 //   });
 // }
+
 
