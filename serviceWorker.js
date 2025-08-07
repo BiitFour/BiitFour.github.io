@@ -1,4 +1,4 @@
-const CacheKeyHuerto = "Mihuerto-v1.0.5";
+const CacheKeyHuerto = "Mihuerto-v1.0.6";
 
 const appShell =[
     "/",
@@ -63,4 +63,5 @@ self.addEventListener("fetch", fetchEvent => {
 self.addEventListener('notificationclick', function (event) {
   event.notification.close();
   clients.openWindow('https://biitfour.github.io');
+
 });
