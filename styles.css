@@ -1,4 +1,4 @@
-/* Estilos base */
+Estilos base
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   background-color: #f9f9f9;
@@ -330,6 +330,63 @@ footer .fst-italic {
 .offset-navbar {
   margin-top: 100px;
 }
+
+/* ✅ Estilo personalizado del checkbox verde MiHuerto */
+/* Estilo de checkbox con verde más fuerte y mayor visibilidad */
+input[type="checkbox"].form-check-input {
+  accent-color: #388e3c; /* Verde intenso */
+  width: 20px;
+  height: 20px;
+  transform: scale(1.2);
+  cursor: pointer;
+  border: 2px solid #4CAF50;
+  background-color: white;
+}
+
+
+/* Al pasar el mouse */
+input[type="checkbox"].form-check-input:hover {
+  background-color: rgba(76, 175, 80, 0.15);
+}
+
+/* Al estar marcado */
+input[type="checkbox"].form-check-input:checked {
+  background-color: #4CAF50;
+  border-color: #388e3c;
+}
+
+/* Palomita blanca */
+input[type="checkbox"].form-check-input::after {
+  content: '';
+  position: absolute;
+  display: none;
+  top: 2px;
+  left: 6px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 2px 2px 0;
+  transform: rotate(45deg);
+}
+
+/* Mostrar palomita solo si está marcado */
+input[type="checkbox"].form-check-input:checked::after {
+  display: block;
+}
+
+/* Mejorar alineación y tamaño visual del checkbox */
+.form-check {
+  align-items: flex-start; /* mejor alineación con el texto largo */
+  gap: 12px;
+}
+
+input[type="checkbox"].mi-checkbox {
+  width: 24px;
+  height: 24px;
+  margin-top: 4px; /* alineación vertical más equilibrada */
+}
+
+
 
 /* Responsive */
 @media (max-width: 768px) {
