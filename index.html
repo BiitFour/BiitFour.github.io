@@ -486,7 +486,7 @@
 
 
 <!-- fin de modificacion base de datos -->
- <script>
+ <!-- <script>
    if ('Notification' in window && 'serviceWorker' in navigator) {
      Notification.requestPermission().then(permission => {
        if (permission === 'granted') {
@@ -509,7 +509,44 @@
        }
      });
    }
- </script>
+ </script> -->
+ <!-- Nuevo script para el service worker -->
+  <script>
+  // Registrar el service worker independientemente del permiso
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.register('serviceWorker.js')
+      .then(registration => {
+        console.log('ServiceWorker registrado con éxito');
+      })
+      .catch(error => {
+        console.error('Error al registrar el ServiceWorker:', error);
+      });
+  }
+
+  // Luego, opcionalmente pedir permiso para notificaciones
+  if ('Notification' in window) {
+    Notification.requestPermission().then(permission => {
+      if (permission === 'granted') {
+        navigator.serviceWorker.ready.then(registration => {
+          registration.showNotification('¡Bienvenido a MiHuerto! 🌱', {
+            body: 'Gracias por visitar nuestra web.',
+            icon: 'icons/icons-1.png',
+            badge: 'icons/icons-2.png',
+            vibrate: [100, 50, 100],
+            actions: [
+              {
+                action: 'explore',
+                title: 'Ir al sitio',
+                icon: 'icons/icons-3.png'
+              }
+            ]
+          });
+        });
+      }
+    });
+  }
+</script>
+
 </body>
 
 </html>
